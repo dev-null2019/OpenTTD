@@ -132,7 +132,7 @@ static void GetVideoModes()
 			int w = modes[i]->w;
 			int h = modes[i]->h;
 			if (IsInsideMM(w, 640, MAX_SCREEN_WIDTH + 1) &&
-					IsInsideMM(h, 480, MAX_SCREEN_HEIGHT + 1)) {
+					IsInsideMM(h, 240, MAX_SCREEN_HEIGHT + 1)) {
 				int j;
 				for (j = 0; j < n; j++) {
 					if (_resolutions[j][0] == w && _resolutions[j][1] == h) break;
