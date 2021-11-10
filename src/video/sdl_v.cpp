@@ -96,6 +96,7 @@ static void DrawSurfaceToScreen()
 }
 
 static const uint16 default_resolutions[][2] = {
+	{ 640,  240},
 	{ 640,  480},
 	{ 800,  600},
 	{1024,  768},
